@@ -3,7 +3,7 @@ const { tasks: { townHall, allHands, manager1o1, holiday } } = require("./task-d
 // Não é necessário cadastrar feriados aqui
 module.exports = {
     mandatoryTasks: [
-        { date: '2023-01-12', tasks: { townHall: townHall } },
+        { date: '2023-01-12', tasks: { townHall } },
         { date: '2023-01-23', tasks: { manager1o1 } },
         { date: '2023-01-26', tasks: { townHall } },
 
